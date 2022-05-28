@@ -10,7 +10,6 @@ function Card({ currentUser }) {
     if (e.key === "Enter" && e.target.value) {
       setTag('');
       currentUser.tags.push(e.target.value);
-      console.log(currentUser.tags);
       setTags(currentUser.tags);
     }
   }

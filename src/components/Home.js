@@ -19,7 +19,6 @@ function Home() {
                 });
                 setUsers(data)
                 setTotalUsers(data)
-                console.log(data);
             });
     }
 
